@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slimy World | Kuromi Vibes</title>
+    <style>
+        :root {
+            --kuromi-purple: #9b6ab6;
+            --soft-black: #2d2d2d;
+            --pastel-pink: #ffdae9;
+            --bg-color: #fdf6ff;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--soft-black);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        /* Top Right Kuromi Placement */
+        .kuromi-corner {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            width: 120px;
+            z-index: 100;
+            filter: drop-shadow(2px 4px 6px rgba(0,0,0,0.1));
+        }
+
+        /* Bottom Left Venezuelan Flag */
+        .flag-corner {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            width: 60px;
+            border-radius: 4px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            border: 2px solid white;
+        }
+
+        .container {
+            max-width: 600px;
+            background: white;
+            padding: 40px;
+            border-radius: 40px;
+            text-align: center;
+            border: 6px solid var(--pastel-pink);
+            box-shadow: 0 10px 30px rgba(155, 106, 182, 0.15);
+            position: relative;
+        }
+
+        h1 {
+            font-size: 3rem;
+            color: var(--kuromi-purple);
+            margin-bottom: 5px;
+            font-weight: 900;
+        }
+
+        .subtitle {
+            font-style: italic;
+            color: #888;
+            margin-bottom: 25px;
+        }
+
+        .about-text {
+            line-height: 1.6;
+            font-size: 1.1rem;
+            color: #444;
+            background: #fafafa;
+            padding: 20px;
+            border-radius: 20px;
+        }
+
+        .divider {
+            font-size: 1.5rem;
+            margin: 20px 0;
+        }
+
+        /* Credits */
+        .main-credits {
+            margin-top: 30px;
+            font-weight: bold;
+            color: var(--kuromi-purple);
+        }
+
+        .tiny-credit {
+            font-size: 0.5rem; /* Extremely small */
+            color: #ccc;
+            display: block;
+            margin-top: 15px;
+            text-decoration: none;
+        }
+
+        /* Decorative Skulls for Kuromi theme */
+        .deco {
+            color: var(--kuromi-purple);
+            opacity: 0.3;
+        }
+    </style>
+</head>
+<body>
+
+    <img src="https://api.iconify.design/icon-park-outline:ghost.svg?color=%239b6ab6" alt="Kuromi Vibes" class="kuromi-corner">
+
+    <img src="https://flagcdn.com/w160/ve.png" alt="Venezuela Flag" class="flag-corner">
+
+    <div class="container">
+        <span class="deco">🖤 💀 🖤</span>
+        <h1>Slimy World</h1>
+        <p class="subtitle">Stay gooey, stay cute.</p>
+        
+        <div class="divider">✨🔮✨</div>
+
+        <div class="about-text">
+            <p>Welcome to <strong>Slimy World</strong>! We are a group of friends who love the satisfying world of slime. From glittery crunch to soft buttery textures, we enjoy exploring all the different ways to make play fun and relaxing.</p>
+            <p>This is just a place for us to share our hobby with you. No shopping, just vibes!</p>
+        </div>
+
+        <div class="main-credits">
+            Made by Alia, Ailee, and Janel
+        </div>
+
+        <span class="tiny-credit">made by eugene</span>
+    </div>
+
+</body>
+</html>
